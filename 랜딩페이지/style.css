@@ -391,7 +391,7 @@ header button{
         float: right;
     }
 
-    /* ------------hero section----------- */
+    /* ------------히어로 섹션----------- */
     section{
         background-color: var(--main-color);
         width: 100%;
@@ -439,7 +439,7 @@ header button{
         margin-bottom: 30px;
     }
 
-    /* 히어로 섹션 고양이 발 부분 숨겨지게 넘어가는거 */
+    /* 히어로 섹션 고양이 하단 숨기기 */
     figure{
         display: flex;
         flex-direction: column;
@@ -595,7 +595,7 @@ header button{
         height: 40px;
         border-radius: 40px;
         background-color: var(--sub-color);
-        color: #fff;
+        color: #f37c13;
         font-size: 1.4rem;
         font-weight: 700;
         margin-top: 20px;
