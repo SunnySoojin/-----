@@ -629,6 +629,34 @@ header button{
     height: 34px;
     margin-bottom: 58px;
    }
+   .sns{
+  display: flex;
+  gap: 16px;              /* 아이콘 사이 간격 */
+  align-items: center;
+}
+
+.sns-link{
+  width: 48px;            /* 원 크기 */
+  height: 48px;
+  border-radius: 50%;
+  background: #F2994A;    /* 주황색 (원하는 값으로 조절 가능) */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sns-icon{
+  width: 20px;            /* 아이콘 크기 */
+  height: 20px;
+  display: block;
+}
+
+/* (선택) hover 효과 */
+.sns-link:hover{
+  transform: translateY(-1px);
+  transition: 0.2s ease;
+}
+
    .footer-link{
     display: flex;
     flex-direction: column;
@@ -644,6 +672,8 @@ header button{
     display: flex;
     justify-content: space-between;
    }
+  
+
    footer ul{
     display: flex;
     flex-direction: column;
